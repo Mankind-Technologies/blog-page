@@ -1,23 +1,24 @@
 import React from "react";
-import styles from "./post.module.css";
-import CardContent from "../../atoms/card";
+import styles from "./blog.module.css";
 import {Post} from "../../../content/types";
+import ContentCard from "../../atoms/card";
 
 interface Props {
     posts:Post[]
 }
 
 const Blog = (props:Props) => {
+    console.log(props.posts)
     return (
-        <>
+        <div className={styles.container}>
             <section>
-                <h1>Insights</h1>
+                <h1 className={styles.title}>Insights</h1>
             </section>
-            <div className="grid-3">
-                {props.posts.map(post => <CardContent key={post.title} {...post} />)}
+            <div className={styles.grid3}>
+                {props.posts.map(post => <ContentCard key={post.slug} {...post} />)}
             </div>
 
-        </>
+        </div>
     )
 };
 

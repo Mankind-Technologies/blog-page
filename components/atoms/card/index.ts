@@ -1,3 +1,3 @@
-import ContentCard from "./card.view";
+import ContentCard from "./postCard.view";
 
 export default ContentCard;

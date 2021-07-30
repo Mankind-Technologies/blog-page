@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Home = () => {
     return (
-        <div className={styles.container}>
+        <div className="container">
             <h1 className={styles.title}>
                 My Blog Page
             </h1>

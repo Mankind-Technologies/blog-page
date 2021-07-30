@@ -10,7 +10,7 @@ interface Props {
 const Blog = (props:Props) => {
     console.log(props.posts)
     return (
-        <div className={styles.container}>
+        <div className="container">
             <section>
                 <h1 className={styles.title}>Insights</h1>
             </section>

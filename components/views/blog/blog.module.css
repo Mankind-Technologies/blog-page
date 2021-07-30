@@ -1,23 +1,14 @@
-.container {
-    width: 700px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 50px auto;
-
-}
 .title {
     text-align: center;
     margin-bottom: 50px;
+    font-size: 48px;
     letter-spacing: 2px;
 }
 .grid3 {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
-    min-width: 300px;
-    max-width: 800px;
     margin-top: 3rem;
+    grid-gap: 30px;
+    justify-content: center;
+
 }

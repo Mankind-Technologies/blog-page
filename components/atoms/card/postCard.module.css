@@ -1,5 +1,6 @@
-.card {
-    cursor: pointer;
-    height: 500px;
-    width: 100px;
+.image {
+    display: block;
+    margin: auto;
+    max-height: 200px;
+    width: auto;
 }
